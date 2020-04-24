@@ -1,0 +1,113 @@
+:root {
+    --color-prune: #5439C6;
+    --color-mirtille:#836BD9;
+    --color-menthe:#57D6AB;
+    --color-craie:#E5E5E5;
+    --color-nuage:#C4C4C4;
+    --color-cendre:#4F4F4F;
+    --color-mauve:#C9C1E3;
+    --color-fantome: #DCD9D9; 
+    --font-body:'Montserrat',sans-serif;
+    --space-sm: 4px;
+    --space-md: 8px;
+    --space-l: 16px;
+    --space-xl: 24;
+    --border: 1px; color: white;
+    --box-shadow: -3px 15px 20px rgba(0, 0, 0, 0.15);
+    --box-shadow-hover: -3px 15px 20px rgba(0, 0, 0, 0.15);
+    --font-body: "Montserrat", sans-serif;
+    --font-size-body: 24;
+}
+
+
+ h1, h2, h3, h4 { color: black; font-family: 'montserrat', sans-serif;}
+
+    
+
+    
+}
+
+html {
+    font-family: var(--font-body);
+}
+
+.big{
+    font-size:38px;
+    font-weight:500;
+}
+
+
+
+.swatch {
+    height: 7rem;
+    width: 3rem;
+}
+.prune {
+    background-color: var(--color-prune);
+}
+.mirtille {
+    background-color: var(--color-mirtille) ;
+}
+.menthe {
+    background-color: var(--color-menthe);
+}
+.craie {
+    background-color: var(--color-craie);
+}
+.nuage {
+    background-color: var(--color-nuage)
+}
+.cendre {
+    background-color: var(--color-cendre);
+}
+.smallspace { background-color: var(--color-nuage);
+height: 4px; width: 4px; display: inline-block;
+}
+    
+  .btn {
+      padding: var(--space-md) var(--space-l);
+    border-radius: 25px; 
+    font-size: var(--font-size-body);
+    
+    width: 239px;
+    height: 45px;   
+}
+      
+
+.btn-primary{
+    background: var(--color-mirtille);
+}
+.btn-primary-disable{
+    background: var(--color-mauve);
+}
+
+       
+   } 
+   .btn-primary:hover{
+       background: var(--color-prune);
+       box-shadow: var(--box-shadow-hover)
+
+   }
+
+  .btn-primary-focus{
+    border:var(--border);
+    background: var(--color-prune);
+}
+
+.btn-secondary {
+    background: var(--color-nuage);}
+}
+
+.btn-secondary-disable{
+    background: var(--color-cendre  );
+}
+     .btn-secondary:hover{
+       background: var(--color-nuage);
+       box-shadow: var(--box-shadow-hover)}
+
+       .btn-secondary-focus{
+           background: var(--color-nuage); 
+           border: var(--border);
+       }
+
+     }
