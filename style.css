@@ -1,113 +1,151 @@
 :root {
-    --color-prune: #5439C6;
-    --color-mirtille:#836BD9;
-    --color-menthe:#57D6AB;
-    --color-craie:#E5E5E5;
-    --color-nuage:#C4C4C4;
-    --color-cendre:#4F4F4F;
-    --color-mauve:#C9C1E3;
-    --color-fantome: #DCD9D9; 
-    --font-body:'Montserrat',sans-serif;
-    --space-sm: 4px;
-    --space-md: 8px;
-    --space-l: 16px;
-    --space-xl: 24;
-    --border: 1px; color: white;
-    --box-shadow: -3px 15px 20px rgba(0, 0, 0, 0.15);
-    --box-shadow-hover: -3px 15px 20px rgba(0, 0, 0, 0.15);
-    --font-body: "Montserrat", sans-serif;
-    --font-size-body: 24;
+  --color-prune: #5439c6;
+  --color-mirtille: #836bd9;
+  --color-menthe: #57d6ab;
+  --color-craie: #e5e5e5;
+  --color-nuage: #c4c4c4;
+  --color-cendre: #4f4f4f;
+  --color-mauve: #c9c1e3;
+  --color-fantome: #dcd9d9;
+  --font-body: "Montserrat", sans-serif;
+  --space-sm: 4px;
+  --space-md: 8px;
+  --space-l: 16px;
+  --space-xl: 24;
+  --border: 1px;
+  --color-body: black;
+  --box-shadow: -3px 15px 20px rgba(0, 0, 0, 0.15);
+  --box-shadow-hover: -3px 15px 20px rgba(0, 0, 0, 0.15);
+  --font-body: "Montserrat", sans-serif;
+  --font-size-body: 24;
 }
 
-
- h1, h2, h3, h4 { color: black; font-family: 'montserrat', sans-serif;}
-
-    
-
-    
+h1,
+h2,
+h3,
+h4 {
+  color: black;
+  font-family: "montserrat", sans-serif;
 }
 
 html {
-    font-family: var(--font-body);
+  font-family: var(--font-body);
 }
-
-.big{
-    font-size:38px;
-    font-weight:500;
-}
-
-
 
 .swatch {
-    height: 7rem;
-    width: 3rem;
+  height: 7rem;
+  width: 3rem;
 }
+
 .prune {
-    background-color: var(--color-prune);
+  background-color: var(--color-prune);
 }
+
 .mirtille {
-    background-color: var(--color-mirtille) ;
+  background-color: var(--color-mirtille);
 }
+
 .menthe {
-    background-color: var(--color-menthe);
+  background-color: var(--color-menthe);
 }
 .craie {
-    background-color: var(--color-craie);
+  background-color: var(--color-craie);
 }
 .nuage {
-    background-color: var(--color-nuage)
+  background-color: var(--color-nuage);
 }
 .cendre {
-    background-color: var(--color-cendre);
-}
-.smallspace { background-color: var(--color-nuage);
-height: 4px; width: 4px; display: inline-block;
-}
-    
-  .btn {
-      padding: var(--space-md) var(--space-l);
-    border-radius: 25px; 
-    font-size: var(--font-size-body);
-    
-    width: 239px;
-    height: 45px;   
-}
-      
-
-.btn-primary{
-    background: var(--color-mirtille);
-}
-.btn-primary-disable{
-    background: var(--color-mauve);
+  background-color: var(--color-cendre);
 }
 
-       
-   } 
-   .btn-primary:hover{
-       background: var(--color-prune);
-       box-shadow: var(--box-shadow-hover)
+.police {
+  font-family: var(--font-body);
+}
 
-   }
+.medium {
+  font-weight: 500;
+}
 
-  .btn-primary-focus{
-    border:var(--border);
-    background: var(--color-prune);
+.regular {
+  font-weight: 400;
+}
+
+.thirtysix {
+  font-size: 36px;
+}
+
+.twentyeight {
+  font-size: 28px;
+}
+
+.twentyfour {
+  font-size: 24px;
+}
+
+.sixteen {
+  font-size: 16px;
+}
+
+.fourteen {
+  font-size: 14px;
+}
+
+.twelve {
+  font-size: 12px;
+}
+
+.fourpx {
+  height: 4px;
+  width: 4px;
+  background-color: burlywood;
+}
+
+.eightpx {
+  height: 8px;
+  width: 8px;
+  background-color: burlywood;
+}
+
+.btn {
+  padding: var(--space-md) var(--space-l);
+  border-radius: 25px;
+  font-size: var(--font-size-body);
+  width: 239px;
+  height: 45px;
+}
+
+.btn-primary {
+  background: var(--color-mirtille);
+}
+
+.btn-primary-disable {
+  background: var(--color-mauve);
+}
+
+.btn-primary:hover {
+  background: var(--color-prune);
+  box-shadow: var(--box-shadow-hover);
+}
+
+.btn-primary-focus {
+  border: var(--border);
+  background: var(--color-prune);
 }
 
 .btn-secondary {
-    background: var(--color-nuage);}
+  background: var(--color-nuage);
 }
 
-.btn-secondary-disable{
-    background: var(--color-cendre  );
+.btn-secondary-disable {
+  background: var(--color-fantome);
 }
-     .btn-secondary:hover{
-       background: var(--color-nuage);
-       box-shadow: var(--box-shadow-hover)}
 
-       .btn-secondary-focus{
-           background: var(--color-nuage); 
-           border: var(--border);
-       }
+.btn-secondary:hover {
+  background: var(--color-nuage);
+  box-shadow: var(--box-shadow-hover);
+}
 
-     }
+.btn-secondary-focus {
+  background: var(--color-nuage);
+  border: var(--border);
+}
