@@ -11,7 +11,8 @@
   --space-sm: 4px;
   --space-md: 8px;
   --space-l: 16px;
-  --space-xl: 24;
+  --space-xl: 28px;
+  --spave-xxl: 32px;
   --border: 1px;
   --color-body: black;
   --box-shadow: -3px 15px 20px rgba(0, 0, 0, 0.15);
@@ -94,15 +95,47 @@ html {
   font-size: 12px;
 }
 
+.space {
+  font-size: 12px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
 .fourpx {
-  height: 4px;
-  width: 4px;
+  height: var(--space-sm);
+  width: var(--space-sm);
   background-color: burlywood;
 }
 
+.space {
+  font-size: 4px;
+  margin: 4px;
+}
+
 .eightpx {
-  height: 8px;
-  width: 8px;
+  height: var(--space-md);
+  width: var(--space-md);
+  background-color: burlywood;
+}
+
+.sixteenpx {
+  height: var(--space-l);
+  width: var(--space-l);
+  background-color: burlywood;
+}
+
+.twentyeightpx {
+  height: var(--space-xl);
+  width: var(--space-xl);
+  background-color: burlywood;
+}
+
+.thirtytwopx {
+  height: var(--spave-xxl);
+  width: var(--spave-xxl);
   background-color: burlywood;
 }
 
