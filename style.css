@@ -29,13 +29,22 @@ h4 {
   font-family: "montserrat", sans-serif;
 }
 
+h1 {
+  text-align: center;
+}
+
 html {
   font-family: var(--font-body);
 }
 
+.swatches {
+  display: flex;
+  flex-direction: row;
+}
+
 .swatch {
-  height: 7rem;
-  width: 3rem;
+  height: 3rem;
+  width: 7rem;
 }
 
 .prune {
