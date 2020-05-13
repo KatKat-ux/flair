@@ -2,6 +2,7 @@
   --color-prune: #5439c6;
   --color-mirtille: #836bd9;
   --color-menthe: #57d6ab;
+  --color-menthe-glace: #bde7d9;
   --color-craie: #e5e5e5;
   --color-nuage: #c4c4c4;
   --color-cendre: #4f4f4f;
@@ -57,8 +58,15 @@ html {
   background-color: var(--color-mirtille);
 }
 
+.mauve {
+  background-color: var(--color-mauve);
+}
+
 .menthe {
   background-color: var(--color-menthe);
+}
+.menthe-glace {
+  background-color: var(--color-menthe-glace);
 }
 .craie {
   background-color: var(--color-craie);
@@ -68,6 +76,9 @@ html {
 }
 .cendre {
   background-color: var(--color-cendre);
+}
+.fantome {
+  background-color: var(--color-fantome);
 }
 
 .police {
@@ -177,20 +188,20 @@ html {
 }
 
 .btn-secondary {
-  background: var(--color-nuage);
+  background: var(--color-menthe);
 }
 
 .btn-secondary-disable {
-  background: var(--color-fantome);
+  background: var(--color-menthe-glace);
 }
 
 .btn-secondary:hover {
-  background: var(--color-nuage);
+  background: var(--color-menthe);
   box-shadow: var(--box-shadow-hover);
 }
 
 .btn-secondary-focus {
-  background: var(--color-nuage);
+  background: var(--color-menthe);
   border: var(--border);
 }
 
