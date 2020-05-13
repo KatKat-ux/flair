@@ -486,3 +486,54 @@ input:checked + .slider:before {
   width: 290px;
   margin-top: 12px;
 }
+.txtemplate {
+  margin-bottom: 8px;
+}
+.boite1 {
+  flex-direction: row;
+  justify-content: space-around flex-end;
+  height: 130px;
+}
+
+
+  
+}
+.grandephoto {
+  margin-left: 36px;
+}
+.icncalendrier {
+  margin-bottom: 20px;
+  margin-right: 36px;
+  margin-left: 36px;
+}
+
+.switch {
+bottom: 40px;
+right: 30px;
+left: 28px;
+}
+.textheader1 {
+font-size: 14px;
+margin-left:-16px;
+}
+.textheader2 {
+font-size: 14px;
+color: var(--color-prune);
+margin-left: 8px;
+ }
+
+.textheader3 {
+font-size: 14px;
+margin-right: 44px;
+margin-left: 0px;
+height: 30px;
+}
+.grouptext {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  width: 430px;
+  margin-left: -10;
+  margin-bottom: -24;
+}
